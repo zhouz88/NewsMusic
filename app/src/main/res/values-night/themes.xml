@@ -1,0 +1,54 @@
+<resources>
+
+<!-- Base application theme. -->
+<style name="Theme.NewsMusic" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:colorPrimary">@color/colorPrimary</item>
+    <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="android:colorAccent">@color/colorAccent</item>
+    <item name="android:windowContentTransitions">true</item>
+    <item name="android:windowDisablePreview">true</item>
+</style>
+
+<style name="TranslucentTheme" parent="Theme.NewsMusic">
+    <item name="android:windowBackground">@color/transparent</item>
+    <item name="android:windowIsTranslucent">true</item>
+</style>
+
+<declare-styleable name="MediaSeekBar">
+    <attr name="hasPlayColor" format="color|reference" />
+    <attr name="originBackgroundColor" format="color|reference" />
+    <attr name="hasBufferColor" format="color|reference" />
+    <attr name="maxProgress" format="integer|reference" />
+    <attr name="progressWidth" format="dimension|reference" />
+    <attr name="customThumb" format="reference" />
+    <attr name="canOperator" format="boolean" />
+</declare-styleable>
+
+<declare-styleable name="SToolBar">
+    <attr name="showTitle" format="boolean" />
+</declare-styleable>
+
+<declare-styleable name="SwipeBackLayout">
+    <attr name="edge_size" format="dimension" />
+    <attr name="edge_flag">
+        <enum name="left" value="0" />
+        <enum name="right" value="1" />
+        <enum name="bottom" value="2" />
+        <enum name="all" value="3" />
+    </attr>
+    <attr name="shadow_left" format="reference" />
+    <attr name="shadow_right" format="reference" />
+    <attr name="shadow_bottom" format="reference" />
+</declare-styleable>
+
+
+<style name="viewClickRipple">
+    <item name="android:foreground">?attr/selectableItemBackground</item>
+</style>
+
+<style name="fresco_base_config">
+    <item name="android:foreground">?attr/selectableItemBackground</item>
+</style>
+
+
+</resources>
